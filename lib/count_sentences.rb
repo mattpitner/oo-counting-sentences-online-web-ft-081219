@@ -21,7 +21,7 @@ class String
 # end   
 
 
-def count_sentences(sentence)
+def count_sentences(sentence="Hello")
   sentence.each do |new_sentence|
     new_sentence.split(/[?!.] /).count
   end 
