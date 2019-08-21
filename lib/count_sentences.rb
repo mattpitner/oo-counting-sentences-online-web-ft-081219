@@ -19,6 +19,7 @@ class String
    number = new_setence.count 
    if number = 0 
      return 0
+   end 
    end
  
 
