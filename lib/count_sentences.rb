@@ -18,7 +18,7 @@ class String
    new_setence = sentence.split(/[?!.] /)
    number = new_setence.count 
    end
-end   
+ 
 
 
 end 
