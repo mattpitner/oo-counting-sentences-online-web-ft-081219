@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences(sentence)
-   new_setence = sentence.split(/[\s,'!.]/)
+   new_setence = string.split(/[?!.] /)
    number = new_setence.count 
    return number 
 
