@@ -14,16 +14,11 @@ class String
     self.end_with?("!")
   end
 
-#   def count_sentences(sentence)
-#   new_setence = sentence.split(/[?!.] /)
-#   number = new_setence.count 
-#   end
-# end   
+   def count_sentences(sentence="Hello")
+   new_setence = sentence.split(/[?!.] /)
+   number = new_setence.count 
+   end
+end   
 
 
-def count_sentences(sentence="Hello")
-  sentence.each do |new_sentence|
-    new_sentence.split(/[?!.] /).count
-  end 
-  end 
 end 
