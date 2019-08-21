@@ -14,9 +14,11 @@ class String
     self.end_with?("!")
   end
 
-   def count_sentences(sentence = "Hello")
+   def count_sentences(sentence)
    new_setence = sentence.split(/[?!.] /)
    number = new_setence.count 
+   if number = 0 
+     return 0
    end
  
 
