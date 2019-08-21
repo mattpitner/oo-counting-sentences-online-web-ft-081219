@@ -13,14 +13,20 @@ class String
   def exclamation?
     self.end_with?("!")
   end
+  
+  
+  def count_sentences
+      
+  end 
+  
 
-   def count_sentences
-   new_setence = sentence.split(/[?!.] /)
-   number = new_setence.count 
-   if number = 0 
-     return 0
-   end 
-   end
+  # def count_sentences
+  # new_setence = sentence.split(/[?!.] /)
+  # number = new_setence.count 
+  # if number = 0 
+  #   return 0
+  # end 
+  # end
  
 
 
