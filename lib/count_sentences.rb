@@ -23,6 +23,6 @@ end
 
 def count_sentences(sentence)
   sentence.each do |new_sentence|
-    new_sentence.split(/[?!.] /)
+    new_sentence.split(/[?!.] /).count
   end 
 end 
